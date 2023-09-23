@@ -1,0 +1,149 @@
+.img
+{
+    height: 150px;
+    width: 270px;
+}
+.container
+{
+    height: 520px;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid rgb(204,202,202);
+}
+h1
+{
+    margin-left: -260px;
+}
+.name
+{
+    margin-left: -150px;
+    font-weight: 800;
+}
+.text
+{
+    margin-left: -30px;
+    height: 27px;
+    width: 330px;
+}
+input[type="text"]:focus
+{
+    border: 3px solid rgb(250, 179, 47);
+}
+.name2
+{
+    margin-left: -30px;
+    font-weight: 800;
+}
+.btn2
+{
+    background-color: rgb(250, 179, 47);
+    border: none;
+    weight: 500px;
+    padding: 15px 140px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: -25px;
+    cursor: pointer;
+    color: black;
+
+}
+a
+{
+    text-decoration: none;
+}
+p
+{
+    margin-left: -10px;
+}
+.checkbox
+{
+    margin-left: -200px;
+}
+.b
+{
+    color: grey;
+    margin-left: 180px;
+}
+.b1
+{
+    background-color: rgb(160, 158, 158);
+    height: 30px;
+    width: 330px;
+    border: none;
+   padding: 5px 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 200px;
+    cursor: pointer;
+    border: 1px solid rgb(80, 79, 79);
+}
+.n
+{
+    font-size: 13px;
+    margin-left: 100px;
+}
+.popover_wrapper
+{
+    position: relative;
+    margin-top: 1.5rem;
+}
+.popover_content
+{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    transform: translate(50px 50px);
+    background-color: #ffff;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0,0,0.26);
+    width: 300px;
+}
+.popover_wrapper:hover .popover_content
+{
+    z-index:20;
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0,-20px);
+    transition: all 0.5s cubic-bezier(0.75,-0.02,0.2,0.97);
+}
+.popover_content:before
+{
+    position: absolute;
+    z-index: -1;
+    content: "";
+    right: calc(50% -20px);
+    
+    transform: rotate(1080deg);
+    border-style: solid;
+    border-color: transparent transparent rgb(197, 196, 196) transparent;
+    border-width: 0 10px 10px 10px;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+.d2
+{
+    margin-left: 230px;
+    clear: both;
+}
+.breck p{
+    font-size: 16px;
+    color: #767676;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    background-color: #ffff;
+    padding-left: 200px;
+}
+.b1 a{
+    color: white;
+    font-size: 14px;
+}
+.btn2 a
+{
+    color: black;
+    font-size: 16px;
+}
